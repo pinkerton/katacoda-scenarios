@@ -5,6 +5,11 @@
   "details": {
     "steps": [
       {
+        "title": "Introduction",
+        "text": "01-01-introduction-to-image-problem.md",
+        "code": "setup.sh"
+      },
+      {
         "title": "Set up serverless framework",
         "text": "01-02-set-up-serverless-framework.md"
       },
@@ -97,10 +102,7 @@
         "text": "3-06-now-with-a-bigger-image.md"
       }
     ],
-    "intro": {
-      "text": "01-01-introduction-to-image-problem.md",
-      "code": "setup.sh"
-    },
+    "intro": {},
     "finish": {
       "text": "finish.md"
     },

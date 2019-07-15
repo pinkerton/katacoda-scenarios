@@ -7,7 +7,7 @@ const uuid = require("uuid/v4");
 
 const axios = require("axios");
 
-module.exports.handler = async (event, context, callback) => {
+module.exports.handler = async (event, context) => {
     const s3 = new AWS.S3();
     const bucket = process.env.BUCKET_NAME;
 
