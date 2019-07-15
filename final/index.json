@@ -107,7 +107,7 @@
         "assets": {
             "host01": [
                 {
-                    "file": "test.txt",
+                    "file": "setup-aws.sh",
                     "target": "/root"
                 }
             ]
