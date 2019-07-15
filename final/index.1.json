@@ -94,7 +94,7 @@
         ],
         "intro": {
             "text": "01-01-introduction-to-image-problem.md",
-            "code": "setup.sh"
+            "courseData": "setup.sh"
         },
         "finish": {
             "text": "finish.md"
