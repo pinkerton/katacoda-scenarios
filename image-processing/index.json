@@ -41,6 +41,7 @@
     "imageid": "datadog-aws"
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uieditorpath": "workshop"
   }
 }
