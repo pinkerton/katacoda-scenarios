@@ -1,6 +1,6 @@
 {
-  "title": "Test 1",
-  "description": "Serverless test",
+  "title": "Getting up and Running with Serverless",
+  "description": "Learn how to automate serverless deployments with code, and gain observability into their infrastructure by combining metrics, traces, and logs in Datadog.",
   "details": {
     "steps": [
       {
