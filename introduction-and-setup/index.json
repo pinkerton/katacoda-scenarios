@@ -9,29 +9,22 @@
             },
             {
                 "title": "Write handler function code",
-                "text": "01-03-write-handler-function.md"
+                "text": "01-03-create-npm-package.md"
+            },
+            {
+                "title": "Write handler function code",
+                "text": "01-04-write-handler-function.md"
             },
             {
                 "title": "Create serverless YAML",
-                "text": "01-04-create-serverless-yaml.md"
+                "text": "01-05-create-serverless-yaml.md"
             }
         ],
         "intro": {
             "text": "01-01-introduction-to-image-problem.md",
             "code": "setup.sh"
         },
-        "assets": {
-            "host01": [
-                {
-                    "file": "serverless.yml",
-                    "target": "/root/workshop/"
-                },
-                {
-                    "file": "create-image-upload-url.js",
-                    "target": "/root/workshop/"
-                }
-            ]
-        }
+        "assets": {}
     },
     "environment": {
         "uilayout": "editor-terminal",
