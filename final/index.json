@@ -102,6 +102,23 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "upload.sh",
+          "target": "/root/workshop/",
+          "chmod": "u+x"
+        },
+        {
+          "file": "datadoge.jpg",
+          "target": "/root/workshop/"
+        },
+        {
+          "file": "datadoge-large.jpg",
+          "target": "/root/workshop/"
+        }
+      ]
     }
   },
   "environment": {
@@ -110,22 +127,5 @@
   },
   "backend": {
     "imageid": "ubuntu"
-  },
-  "assets": {
-    "host01": [
-      {
-        "file": "upload.sh",
-        "target": "/root/workshop/",
-        "chmod": "u+x"
-      },
-      {
-        "file": "datadoge.jpg",
-        "target": "/root/workshop/"
-      },
-      {
-        "file": "datadoge-large.jpg",
-        "target": "/root/workshop/"
-      }
-    ]
   }
 }
