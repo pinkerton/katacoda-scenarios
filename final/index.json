@@ -112,7 +112,8 @@
                 },
                 {
                     "file": "setupaws.sh",
-                    "target": "/root"
+                    "target": "/root",
+                    "chmod": "+x"
                 }
             ]
         }
