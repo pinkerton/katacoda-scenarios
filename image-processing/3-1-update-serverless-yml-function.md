@@ -1,9 +1,8 @@
-Now we are going to add a second function. Add the following to your serverless.yml
+Now we are going to add a second function. Uncomment the following to your serverless.yml
 
 ```yml
 functions:
   # ...
-  ## COPY BELOW HERE
   process-image:
     runtime: nodejs10.x
     name: process-image-${self:provider.stage}
