@@ -1,5 +1,5 @@
-The first thing we'll do is set up the Serverless Framework in our environment, following the steps from [their docs](https://serverless.com/framework/docs/providers/aws/guide/installation/).
+The first thing we'll do is install the Serverless Framework in our environment.
 
-Install the Serverless framework with NPM: `npm install -g serverless`.
+To install enter this command: `npm install -g serverless`.
 
 You should now be able to `serverless -v`.
