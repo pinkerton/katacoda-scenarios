@@ -12,13 +12,12 @@ Fill `package.json` with this to specify our NPM dependencies:
     "description": "Demo Image Processing Pipeline in Lambda",
     "main": "index.js",
     "license": "MIT",
-    "devDependencies": {
-        "@types/aws-sdk": "true2.7.0"
-    },
     "dependencies": {
-        "aws-xray-sdk": "true2.3.3",
-        "axios": "true0.19.0",
-        "uuid": "true3.3.2"
+        "aws-xray-sdk": "2.3.3",
+        "axios": "0.19.0",
+        "uuid": "3.3.2"
     }
 }
 ```
+
+Now run `npm install` to fetch our dependencies.

@@ -2,6 +2,6 @@ We've designed a new app where a major component is allowing users to upload ima
 
 First we're going to make the service very simple with no processing.
 
-Once that's working we'll start to add on more features, like verifying the image isn't too large, adding compression, and [TDOD TODO].
+Once that's working we'll start to add on more features, like verifying the image isn't too large, adding compression, and [TODO TODO TODO]
 
-9
+TODO Add diagram here
