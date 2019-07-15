@@ -108,21 +108,41 @@
             "client": [
                 {
                     "file": "upload.sh",
-                    "target": "/root/workshop/",
+                    "target": "~/workshop/",
                     "chmod": "u+x"
                 },
                 {
                     "file": "setup-aws.sh",
-                    "target": "/root/",
+                    "target": "~/",
                     "chmod": "u+x"
                 },
                 {
                     "file": "datadoge.jpg",
-                    "target": "/root/workshop/"
+                    "target": "~/workshop/"
                 },
                 {
                     "file": "datadoge-large.jpeg",
-                    "target": "/root/workshop/"
+                    "target": "~/workshop/"
+                }
+            ],
+            "host01": [
+                {
+                    "file": "upload.sh",
+                    "target": "~/workshop/",
+                    "chmod": "u+x"
+                },
+                {
+                    "file": "setup-aws.sh",
+                    "target": "~/",
+                    "chmod": "u+x"
+                },
+                {
+                    "file": "datadoge.jpg",
+                    "target": "~/workshop/"
+                },
+                {
+                    "file": "datadoge-large.jpeg",
+                    "target": "~/workshop/"
                 }
             ]
         }
