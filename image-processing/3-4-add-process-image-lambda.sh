@@ -1,1 +1,1 @@
-touch process-image.js
+touch /root/workshop/process-image.js

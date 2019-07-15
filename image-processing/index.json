@@ -36,10 +36,11 @@
       "text": "finish.md"
     }
   },
-  "environment": {
-    "uilayout": "terminal"
-  },
+
   "backend": {
     "imageid": "datadog-aws"
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
   }
 }
