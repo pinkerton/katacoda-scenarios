@@ -5,23 +5,27 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "3-1-update-serverless-yml.md"
+        "text": "3-1-update-serverless-yml-function.md"
+      },
+      {
+        "title": "Step 1",
+        "text": "3-2-update-serverless-yml-permissions.md"
       },
       {
         "title": "Step 2",
-        "text": "3-2-install-jimp.md"
+        "text": "3-3-install-jimp.md"
       },
       {
         "title": "Step 3",
-        "text": "3-3-add-process-image-lambda.md"
+        "text": "3-4-add-process-image-lambda.md"
       },
       {
         "title": "Step 4",
-        "text": "3-4-deploy-and-test.md"
+        "text": "3-5-deploy-and-test.md"
       },
       {
         "title": "Step 5",
-        "text": "3-5-now-with-a-bigger-image.md"
+        "text": "3-6-now-with-a-bigger-image.md"
       }
     ],
     "intro": {

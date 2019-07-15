@@ -8,9 +8,12 @@ const Jimp = require("jimp");
 
 module.exports.handler = datadog(async (event, context, callback) => {
   const s3 = new AWS.S3();
-  // iterates through every incomming event sent from s3
+  // iterates through every incomming event sent from s3, and processes
+  // asynchronously.
   const records = event.Records;
   const promises = records.map(record => processImage(record, s3));
+
+  // Wait until all the processed images are sent to s3
   await Promise.all(promises);
 });
 
@@ -45,12 +48,3 @@ async function processImage(record, s3) {
     .promise();
 }
 ```
-
-This function does the following:
-
-- iterates through every incomming event sent from s3
-- retrieves the corresponding image from s3
-- reads it into memory
-- scales it to 256/256px
-- turns it grey
-- posts it back to s3, this time in the processed directory, and publically readable
