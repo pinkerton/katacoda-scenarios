@@ -105,15 +105,9 @@
             "text": "finish.md"
         },
         "assets": {
-            "client": [
-                {
-                    "file": "*",
-                    "target": "/root"
-                }
-            ],
             "host01": [
                 {
-                    "file": "*",
+                    "file": "test.txt",
                     "target": "/root"
                 }
             ]
