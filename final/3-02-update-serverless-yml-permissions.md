@@ -1,5 +1,5 @@
   
-We have to give our lambda permission to launch from an s3 event. Uncomment the following code to your serverless.yml.
+We have to give our lambda permission to launch from an s3 event. Copy the following code to your serverless.yml.
 
 ```yml
 # serverless.yml
