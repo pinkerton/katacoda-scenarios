@@ -105,7 +105,7 @@
             "text": "finish.md"
         },
         "assets": {
-            "host01": [
+            "client": [
                 {
                     "file": "upload.sh",
                     "target": "/root/workshop/",
