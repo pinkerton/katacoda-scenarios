@@ -2,10 +2,6 @@
     "title": "Test 1",
     "description": "Serverless test",
     "details": {
-        "intro": {
-            "text": "01-01-introduction-to-image-problem.md",
-            "code": "setup.sh"
-        },
         "steps": [
             {
                 "title": "Set up serverless framework",
@@ -20,7 +16,22 @@
                 "text": "01-04-create-serverless-yaml.md"
             }
         ],
-        "assets": {}
+        "intro": {
+            "text": "01-01-introduction-to-image-problem.md",
+            "courseData": "setup-node.sh"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "serverless.yml",
+                    "target": "/root/workshop"
+                },
+                {
+                    "file": "create-image-upload-url.js",
+                    "target": "/root/workshop"
+                }
+            ]
+        }
     },
     "environment": {
         "uilayout": "editor-terminal",
