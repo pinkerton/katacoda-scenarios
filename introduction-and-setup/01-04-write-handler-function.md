@@ -1,26 +1,5 @@
-Now that the serverless framework is set up, let's write our handler code that will be called when our Lambda is invoked.
-
-First use your editor to create a `package.json` file and fill it with this to specify our NPM dependencies:
-
-```json
-{
-    "name": "dash-serverless-workshop",
-    "version": "1.0.0",
-    "description": "Demo Image Processing Pipeline in Lambda",
-    "main": "index.js",
-    "license": "MIT",
-    "devDependencies": {
-        "@types/aws-sdk": "true2.7.0"
-    },
-    "dependencies": {
-        "aws-xray-sdk": "true2.3.3",
-        "axios": "true0.19.0",
-        "uuid": "true3.3.2"
-    }
-}
-```
-
-Then create another file called `create-image-upload-url.js` and enter our Lambda handler code:
+Now we're going to write our Lambda handler code.
+Create another file called `create-image-upload-url.js` with these contents::
 
 ```js
 const AWS = require("aws-sdk");
