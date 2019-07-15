@@ -1,0 +1,29 @@
+{
+    "title": "Test 1",
+    "description": "Serverless test",
+    "details": {
+        "steps": [
+            {
+                "title": "Set up serverless framework",
+                "text": "01-02-set-up-serverless-framework.md"
+            },
+            {
+                "title": "Write handler function code",
+                "text": "01-03-write-handler-function.md"
+            },
+            {
+                "title": "Create serverless YAML",
+                "text": "01-04-create-serverless-yaml.md"
+            }
+        ],
+        "intro": {
+            "text": "01-01-introduction-to-image-problem.md"
+        }
+    },
+    "environment": {
+        "uilayout": "editor-terminal"
+    },
+    "backend": {
+        "imageid": "datadog-aws"
+    }
+}
