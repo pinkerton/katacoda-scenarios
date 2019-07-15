@@ -115,16 +115,16 @@
     "host01": [
       {
         "file": "upload.sh",
-        "target": "/workshop/upload.sh",
+        "target": "/workshop/",
         "chmod": "u+x"
       },
       {
         "file": "datadoge.jpg",
-        "target": "/workshop/datadoge.jpg"
+        "target": "/workshop/"
       },
       {
         "file": "datadoge-large.jpg",
-        "target": "/workshop/datadoge-large.jpg"
+        "target": "/workshop/"
       }
     ]
   }
