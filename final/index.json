@@ -112,6 +112,11 @@
                     "chmod": "u+x"
                 },
                 {
+                    "file": "setup-aws.sh",
+                    "target": "/root/",
+                    "chmod": "u+x"
+                },
+                {
                     "file": "datadoge.jpg",
                     "target": "/root/workshop/"
                 },
