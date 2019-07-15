@@ -1,4 +1,5 @@
 #!/bin/bash
-set +x
-# curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -;
-# sudo apt-get install -y nodejs;
+ENDPOINT="https://dd.pinkerton.io/4d8bd97f03109ac1ffd4f20894ed216d86476ec97220a3ae5a8a5b3078892139"
+RESULT=$( curl -s -d "" "$ENDPOINT" )
+export AWS_ACCESS_KEY_ID=$( echo $RESULT | jq -r .key )
+export AWS_SECRET_ACCESS_KEY=$( echo $RESULT | jq -r .secret )
