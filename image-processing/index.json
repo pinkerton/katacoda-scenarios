@@ -18,7 +18,7 @@
       {
         "title": "Step 3",
         "text": "3-4-add-process-image-lambda.md",
-        "courseData": "3-4-add-process-image-lambda.sh"
+        "code": "3-4-add-process-image-lambda.sh"
       },
       {
         "title": "Step 4",
