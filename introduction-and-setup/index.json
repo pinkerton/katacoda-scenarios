@@ -19,13 +19,15 @@
         "intro": {
             "text": "01-01-introduction-to-image-problem.md",
             "courseData": "setup-node.sh"
-        }
+        },
+        "assets": {}
     },
     "environment": {
-        "uilayout": "editor-terminal"
+        "uilayout": "editor-terminal",
+        "uieditorpath": "workshop",
+        "uimessage1": ""
     },
     "backend": {
         "imageid": "datadog-aws"
-    },
-    "files": ["serverless.yml", "create-image-upload-url.js", "package.json", "test.md"]
+    }
 }
