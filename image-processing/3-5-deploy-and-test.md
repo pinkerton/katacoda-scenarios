@@ -1,7 +1,7 @@
 Let's deploy our functions again.
 
 ```
-sls deploy --stage="your-stage-name"
+sls deploy --stage="your-stage-name" --api-key=""
 ```
 
 Now, it's time to test our new function
