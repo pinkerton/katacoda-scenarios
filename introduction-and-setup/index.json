@@ -24,11 +24,11 @@
             "host01": [
                 {
                     "file": "serverless.yml",
-                    "target": "/root/workshop"
+                    "target": "/root/workshop/"
                 },
                 {
                     "file": "create-image-upload-url.js",
-                    "target": "/root/workshop"
+                    "target": "/root/workshop/"
                 }
             ]
         }
