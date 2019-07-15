@@ -18,7 +18,7 @@
         ],
         "intro": {
             "text": "01-01-introduction-to-image-problem.md",
-            "courseData": "setup-node.sh"
+            "courseData": "setup.sh"
         },
         "assets": {
             "host01": [

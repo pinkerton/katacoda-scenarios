@@ -4,4 +4,4 @@ First we're going to make the service very simple with no processing.
 
 Once that's working we'll start to add on more features, like verifying the image isn't too large, adding compression, and [TDOD TODO].
 
-6
+7
