@@ -17,7 +17,8 @@
             }
         ],
         "intro": {
-            "text": "01-01-introduction-to-image-problem.md"
+            "text": "01-01-introduction-to-image-problem.md",
+            "courseData": "setup-node.sh"
         }
     },
     "environment": {
