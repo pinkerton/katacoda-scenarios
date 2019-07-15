@@ -1,6 +1,7 @@
 {
   "title": "Getting up and Running with Serverless",
   "description": "learn how to automate serverless deployments with code, and gain observability into their infrastructure by combining metrics, traces, and logs in Datadog.",
+  "time": "Two hours",
   "details": {
     "steps": [
       {
