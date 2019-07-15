@@ -52,10 +52,6 @@
                 "text": "deploy.md"
             },
             {
-                "title": "Break",
-                "text": "break.md"
-            },
-            {
                 "title": "Using the Serverless Page",
                 "text": "demo1.md"
             },
@@ -98,7 +94,7 @@
         ],
         "intro": {
             "text": "01-01-introduction-to-image-problem.md",
-            "code": "setup.sh"
+            "courseData": "setup.sh"
         },
         "finish": {
             "text": "finish.md"
