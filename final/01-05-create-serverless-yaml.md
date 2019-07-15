@@ -7,8 +7,8 @@ service: dash-serverless-workshop
 
 provider:
   name: aws
-  stage: ${opt:stage, 'staging'}
-  imageBucketName: dash-serverless-workshop-images-${opt:stage, 'staging'}
+  stage: ${opt:stage}
+  imageBucketName: dash-serverless-workshop-images-${opt:stage}
   environment:
     BUCKET_NAME: ${self:provider.imageBucketName}
   iamRoleStatements:
