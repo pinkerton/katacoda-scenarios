@@ -101,7 +101,8 @@
         }
     },
     "environment": {
-        "uilayout": "editor-terminal"
+        "uilayout": "editor-terminal",
+        "uieditorpath": "workshop"
     },
     "backend": {
         "imageid": "datadog-aws"
