@@ -120,10 +120,6 @@
           "file": "upload.sh",
           "target": "/root",
           "chmod": "+x"
-        },
-        {
-          "file": "datadoge.jpg",
-          "target": "/root/workshop"
         }
       ]
     }
