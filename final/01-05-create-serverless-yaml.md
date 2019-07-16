@@ -28,14 +28,9 @@ functions:
       - http:
           path: images/uploads
           method: post
-
-resources:
-  Resources:
-    S3BucketDashserverlessworkshopimagessandbox:
-      Type: AWS::S3::Bucket
-      Properties:
-        AccessControl: "Private"
-        BucketName: ${self:provider.imageBucketName}
+      - s3:
+          bucket: ${self:provider.imageBucketName}
+          event: s3:ObjectRemoved:*
 ```
 
 This is creating the S3 bucket and Lambda function that we're going to be using. As a handler it uses the `handler` function that we just wrote in `create-image-upload-url.js`.
