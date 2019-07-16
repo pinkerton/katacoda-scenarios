@@ -1,13 +1,13 @@
 Import `datadog` and `sendDistributionMetric`.
 
-```javascript
+```js
 const datadog = require("datadog-lambda-js").datadog;
 const sendDistributionMetric = require("datadog-lambda-js").sendDistributionMetric;
 ```
 
 Wrap the handler with `datadog` and send a metric.
 
-```javascript
+```js
 module.exports.handler = datadog(async (event, context, callback) => {
     // ADD A METRIC
     sendDistributionMetric(

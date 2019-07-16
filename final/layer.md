@@ -1,6 +1,5 @@
 Add the following Datadog Lambda layer to our Lambda function.
 
-
 ```yaml
 functions:
   create-image-upload-url:
@@ -10,8 +9,8 @@ functions:
 
 Set the following environment variables:
 
-# DD_KMS_API_KEY
-# DD_FLUSH_TO_LOG
+- DD_KMS_API_KEY
+- DD_FLUSH_TO_LOG
 
 ```yaml
     environment:
@@ -19,4 +18,4 @@ Set the following environment variables:
         DD_FLUSH_TO_LOG: True
 ```
 
-[Learn more](https://docs.datadoghq.com/integrations/amazon_lambda/?tab=node#installing-and-using-the-datadog-layer)
+[Learn more about Datadog Lambda layers](https://docs.datadoghq.com/integrations/amazon_lambda/?tab=node#installing-and-using-the-datadog-layer)
