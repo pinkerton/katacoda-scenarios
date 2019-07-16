@@ -8,33 +8,36 @@ const uuid = require("uuid/v4");
 const axios = require("axios");
 
 module.exports.handler = async (event, context) => {
-    const s3 = new AWS.S3();
-    const bucket = process.env.BUCKET_NAME;
+  const s3 = new AWS.S3();
+  const bucket = process.env.BUCKET_NAME;
 
-    const id = `${uuid()}.jpg`;
-    const key = `unprocessed/${id}`;
-    const publicUrl = `http://${bucket}.s3.amazonaws.com/processed/${id}`;
+  const id = `${uuid()}.jpg`;
+  const key = `unprocessed/${id}`;
+  const publicUrl = `http://${bucket}.s3.amazonaws.com/processed/${id}`;
 
-    const signedUrlExpireSeconds = 60 * 3;
+  const signedUrlExpireSeconds = 60 * 3;
 
-    const options = {
-        Bucket: bucket,
-        Key: key,
-        Expires: signedUrlExpireSeconds,
-        ContentType: "image/jpeg"
-    };
+  const options = {
+    Bucket: bucket,
+    Key: key,
+    ACL: "public-read",
+    Expires: signedUrlExpireSeconds,
+    ContentType: "image/jpeg"
+  };
 
-    const url = s3.getSignedUrl("putObject", options);
+  const url = s3.getSignedUrl("putObject", options);
 
-    response = await axios.get(`https://tinyurl.com/api-create.php?url=${publicUrl}`);
+  response = await axios.get(
+    `https://tinyurl.com/api-create.php?url=${publicUrl}`
+  );
 
-    return {
-        statusCode: 202,
-        body: JSON.stringify({
-            uploadUrl: url,
-            publicUrl: response.data
-        })
-    };
+  return {
+    statusCode: 202,
+    body: JSON.stringify({
+      uploadUrl: url,
+      publicUrl: response.data
+    })
+  };
 };
 ```
 

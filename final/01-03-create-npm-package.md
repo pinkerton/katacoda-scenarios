@@ -7,16 +7,16 @@ Fill `package.json` with this to specify our NPM dependencies:
 
 ```json
 {
-    "name": "dash-serverless-workshop",
-    "version": "1.0.0",
-    "description": "Demo Image Processing Pipeline in Lambda",
-    "main": "index.js",
-    "license": "MIT",
-    "dependencies": {
-        "aws-xray-sdk": "2.3.3",
-        "axios": "0.19.0",
-        "uuid": "3.3.2"
-    }
+  "name": "dash-serverless-workshop",
+  "version": "1.0.0",
+  "description": "Demo Image Processing Pipeline in Lambda",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-xray-sdk": "2.3.3",
+    "axios": "0.19.0",
+    "uuid": "3.3.2"
+  }
 }
 ```
 
