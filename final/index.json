@@ -62,6 +62,10 @@
                 "text": "break.md"
             },
             {
+                "title": "Sign into Datadog",
+                "text": "demo0.md"
+            },
+            {
                 "title": "Using the Serverless Page",
                 "text": "demo1.md"
             },
