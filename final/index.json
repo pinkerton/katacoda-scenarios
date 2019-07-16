@@ -128,6 +128,8 @@
         "uieditorpath": "workshop"
     },
     "backend": {
-        "imageid": "ubuntu"
+        "imageid": "ubuntu",
+        "reuseConnection": true,
+        "livetime": "4h"
     }
 }
