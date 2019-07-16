@@ -128,10 +128,6 @@
                 {
                     "file": "datadoge.jpg",
                     "target": "/root/workshop"
-                },
-                {
-                    "file": "datadoge-large.jpg",
-                    "target": "/root/workshop"
                 }
             ]
         }
