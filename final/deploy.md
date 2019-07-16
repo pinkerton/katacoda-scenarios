@@ -8,7 +8,9 @@ NOTE: Because we are deploying to a shared environment, please update `<stage-na
 
 Now, it's time to test our new function.
 
-Use a command like `wget -O testimage.jpg https://i.imgflip.com/w7qv5.jpg` with your choice of jpg from the web.
+Use a command like `wget -O testimage.jpg https://i.imgflip.com/w7qv5.jpg` to download your choice of jpg from the web into your environment.
+
+Then run this script to test posting the image to our service:
 
 ```bash
 ./upload.sh "<stage-name>" testimage.jpg
