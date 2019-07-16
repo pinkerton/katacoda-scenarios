@@ -2,7 +2,9 @@ Now we're going to write our Lambda handler code.
 Create another file called `create-image-upload-url.js` with these contents::
 
 ```js
-const AWS = require("aws-sdk");
+const AWSXRay = require("aws-xray-sdk");
+AWSXRay.captureHTTPsGlobal(require("https"));
+var AWS = AWSXRay.captureAWS(require('aws-sdk'));
 const uuid = require("uuid/v4");
 
 const axios = require("axios");

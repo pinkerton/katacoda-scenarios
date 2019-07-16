@@ -2,8 +2,10 @@ Next let's add the implementation for the process image lambda. Create a new fil
 `process-image.js` and add the following code.
 
 ```js
+const AWSXRay = require("aws-xray-sdk");
+AWSXRay.captureHTTPsGlobal(require("https"));
+var AWS = AWSXRay.captureAWS(require('aws-sdk'));
 const datadog = require("datadog-lambda-js").datadog;
-const AWS = require("aws-sdk");
 const Jimp = require("jimp");
 
 module.exports.handler = datadog(async (event, context, callback) => {
