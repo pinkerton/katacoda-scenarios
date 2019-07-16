@@ -14,7 +14,6 @@ Fill `package.json` with this to specify our NPM dependencies:
   "license": "MIT",
   "dependencies": {
     "aws-xray-sdk": "2.3.3",
-    "jimp": "0.6.4",
     "axios": "0.19.0",
     "uuid": "3.3.2"
   }
