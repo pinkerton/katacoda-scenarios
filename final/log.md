@@ -1,6 +1,7 @@
 Add the following line in `create-image-upload-url.js`.
 
-```javascript
+
+```js
 const id = `${uuid()}.jpg`;
 const key = `unprocessed/${id}`;
 const publicUrl = `http://${bucket}.s3.amazonaws.com/processed/${id}`;
