@@ -7,3 +7,5 @@ touch ~/.aws/credentials
 echo "[default]" >> ~/.aws/credentials
 echo "aws_access_key_id=$( echo $RESULT | jq -r .key )" >> ~/.aws/credentials
 echo "aws_secret_access_key=$( echo $RESULT | jq -r .secret )" >> ~/.aws/credentials
+
+curl https://i.imgflip.com/w7qv5.jpg > /root/workshop/testimage.jpg
