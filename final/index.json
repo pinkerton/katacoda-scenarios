@@ -114,15 +114,9 @@
                     "file": "setupaws.sh",
                     "target": "/root",
                     "chmod": "+x"
-                }
-            ],
-            "client": [
-                {
-                    "file": "test.txt",
-                    "target": "/root"
                 },
                 {
-                    "file": "setupaws.sh",
+                    "file": "upload.sh",
                     "target": "/root",
                     "chmod": "+x"
                 }
