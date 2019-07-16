@@ -108,17 +108,8 @@
     "assets": {
       "host01": [
         {
-          "file": "test.txt",
-          "target": "/root"
-        },
-        {
-          "file": "setupaws.sh",
-          "target": "/root",
-          "chmod": "+x"
-        },
-        {
           "file": "upload.sh",
-          "target": "/root",
+          "target": "/root/workshop",
           "chmod": "+x"
         }
       ]
